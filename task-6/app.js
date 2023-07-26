@@ -1,6 +1,6 @@
 const api = {
   key: "b8e3d59c127f43cdaea113815232507",
-  base: "http://api.weatherapi.com/v1/",
+  base: "https://api.weatherapi.com/v1/",
 };
 
 const header = document.querySelector(".header");
