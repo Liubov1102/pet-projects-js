@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p style="margin-top: 8px"><a href="../index.html">Go back</a></p>
+
+    <!-- <h2 class="today"></h2> -->
+
+    <section class="clock">
+      <div class="hour"></div>
+
+      <div class="minute"></div>
+
+      <div class="second"></div>
+    </section>
+
+    <!-- <section class="container">
+      <p class="time"></p>
+    </section> -->
+
+    <section class="container">
+      <h2>Alarm Clock</h2>
+      <div class="timer-display"></div>
+      <div class="content">
+        <div class="inputs">
+          <input
+            type="number"
+            id="hourInput"
+            placeholder="00"
+            min="0"
+            max="23"
+          />
+          <input
+            type="number"
+            id="minuteInput"
+            placeholder="00"
+            min="0"
+            max="59"
+          />
+        </div>
+        <button id="set">Add Alarm</button>
+        <div class="activeAlarms"></div>
+      </div>
+      <!-- <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected disabled hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected disabled hidden>Minute</option>
+          </select>
+        </div>
+      </div> -->
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
